@@ -1,0 +1,241 @@
+/*Universal Style */
+* {
+
+    box-sizing: border-box;
+    transition: .2s linear;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Webpage */
+body {
+
+    margin: 0;
+    padding: 0;
+    background: #dbd7cbe5;
+    
+}
+
+/* Navigation Bar */
+header {
+
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: #3b3b3b;
+
+}
+.website-name{
+
+    position: absolute;
+    padding: 10px;
+    float: left;
+    margin-left: 4%;
+    margin-bottom: 10px;
+    color:rgb(142, 119, 255);
+    text-decoration: none;
+    font-size: 1.50rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+span {
+    color: #ffffff;
+}
+
+ul {
+    
+    width: auto;
+    float: right;
+    margin-right: 3.5%;
+
+    
+}
+
+li {
+    display: inline-block;
+    padding: 2px 20px;
+  
+
+}
+
+.link {
+
+    display: absolute;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    
+}
+
+.link:hover {
+
+    
+    border-width: 2px;
+    border-radius: 1px;
+    padding: 100px 25px 25px 25px;
+    background-color: #e0d5b43d;
+    border-style: none;
+    transition: 0.3s;
+
+}
+
+/* division class "wrapper style */
+.wrapper {
+
+    margin: 10px auto;
+    padding: 0 10%;
+    padding-bottom: 10px;
+    text-transform: none;
+
+
+}
+/* Website Main title style */
+.title {
+
+    color: rgb(68, 68, 68);
+    font-size: 40px;
+    margin-top: 6%;
+    padding-bottom: 60px;
+    text-align: center;
+    text-shadow: 0 5px 10px rgba(0,0,0,0.2 );
+    
+}
+
+/* Responsive Boxes style */
+.container {
+
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.box {
+
+   
+    padding: 35px;
+    text-align: center;
+    border-radius: 5px;
+    background: rgb(236, 235, 235);
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2 );
+
+}
+
+
+.box img {
+
+    height: 110px;
+
+}
+/* Boxes Text */
+.box h3 {
+
+    color: #444;
+    padding: 0 10px;
+    font-size: 30px;
+
+}
+
+.box p {
+
+    color: rgb(119, 119, 119);
+    font-size: 15px;
+    line-height: 1.6;
+    padding-bottom: 10px;
+ 
+  
+}
+
+/* Learn More Button style  */
+.btn {
+
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    margin-top: 30px;
+    padding: 10px 15px;
+    background: rgb(85,51,255);
+    border-radius: 5px;
+    display: inline block;
+    text-decoration: none;
+}
+
+.btn:hover {
+
+    letter-spacing: 1px;
+    transform: scale(1.03);
+
+}
+
+.box:hover {
+
+    transform: scale(1.03);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+/* Responsive Layout */
+@media (max-width:770px) {
+    .wrapper {
+        padding: 20px;
+    }
+}
+
+
+/* footer*/
+footer {
+
+
+    font-size: 15px;
+    text-align: center;
+    background: #3b3b3b;;
+    font-family: "Poppins";
+    color:#fff;
+    padding-top: 5px;
+   
+    
+}
+
+.footer-content  {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.socials {
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 2.3rem 0 0;
+}
+
+.socials li {
+
+    margin: 0 5px;
+}
+
+.socials a {
+
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.socials a i {
+
+    font-size: 1.5rem;
+    transition: color .4s ease ;
+}
+
+.socials a:hover i {
+
+    color: rgb(162, 144, 255);
+}
